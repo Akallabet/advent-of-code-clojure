@@ -1,0 +1,469 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+c o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Starting Jack-in Terminal: lein update-in :dependencies conj '[nrepl,"0.8.3"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.26.0"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉day1.core꞉> 
+; Jack-in done.
+clj꞉day1.core꞉> 
+; Evaluating file: core.clj
+#'day1.core/parse-input
+; Running tests for day1.core...
+; No tests found. 😱, ns: 0, vars: 0
+clj꞉day1.core꞉> 
+; Evaluating file: project.clj
+; Syntax error compiling at (project.clj:1:1).
+; Unable to resolve symbol: defproject in this context
+; Evaluation of file project.clj failed: class clojure.lang.Compiler$CompilerException
+
+clj꞉day1.core꞉> 
+; Running tests for user...
+; TypeError: Cannot read property 'test' of undefined
+clj꞉user꞉> 
+; Evaluating file: core_test.clj
+#object[speclj.components.Description 0x3f8ddaab "Description: \"parse input\""]
+; Running tests for day1.core-test...
+; No tests found. 😱, ns: 0, vars: 0
+clj꞉day1.core-test꞉> 
+; Evaluating file: core.clj
+#'day1.core/parse-input
+; Running tests for day1.core...
+; No tests found. 😱, ns: 0, vars: 0
+clj꞉day1.core꞉> 
+; Evaluating file: core.clj
+#'day1.core/parse-input
+; Running tests for day1.core...
+; No tests found. 😱, ns: 0, vars: 0
+clj꞉day1.core꞉> 
+; Evaluating file: core.clj
+#'day1.core/parse-input
+; Running tests for day1.core...
+; No tests found. 😱, ns: 0, vars: 0
+clj꞉day1.core꞉> 
+; Evaluating file: core_test.clj
+#object[speclj.components.Description 0x395deb18 "Description: \"parse input\""]
+; Running tests for day1.core-test...
+; No tests found. 😱, ns: 0, vars: 0
+clj꞉day1.core-test꞉> 
+; Evaluating file: project.clj
+; Syntax error compiling at (project.clj:1:1).
+; Unable to resolve symbol: defproject in this context
+; Evaluation of file project.clj failed: class clojure.lang.Compiler$CompilerException
+
+clj꞉day1.core-test꞉> 
+; Running tests for user...
+; TypeError: Cannot read property 'test' of undefined
+clj꞉user꞉> 
+; Evaluating file: core_test.clj
+#object[speclj.components.Description 0x26e3f0a0 "Description: \"parse input\""]
+; Running tests for day1.core-test...
+; No tests found. 😱, ns: 0, vars: 0
+clj꞉day1.core-test꞉> 
+; Evaluating file: core_test.clj
+#'day1.core-test/a-test
+; Running tests for day1.core-test...
+; FAIL in day1.core-test/a-test (core_test.clj:18):
+; FIXME, I fail.
+; expected:
+[1 2 3]
+; actual:
+([199 200 208 210 200 207 240 269 260 263])
+; 1 tests finished, problems found. 😭 errors: 0, failures: 1, ns: 1, vars: 1
+clj꞉day1.core-test꞉> 
+; Evaluating file: core_test.clj
+#'day1.core-test/a-test
+; Running tests for day1.core-test...
+; FAIL in day1.core-test/a-test (core_test.clj:18):
+; FIXME, I fail.
+; expected:
+[199 200 208 210 200 207 240 269 260 263]
+; actual:
+([199 200 208 210 200 207 240 269 260 263])
+; 1 tests finished, problems found. 😭 errors: 0, failures: 1, ns: 1, vars: 1
+clj꞉day1.core-test꞉> 
+; Evaluating file: core.clj
+#'day1.core/parse-input
+; Running tests for day1.core...
+; FAIL in day1.core-test/a-test (core_test.clj:18):
+; FIXME, I fail.
+; expected:
+[199 200 208 210 200 207 240 269 260 263]
+; actual:
+([199 200 208 210 200 207 240 269 260 263])
+; 1 tests finished, problems found. 😭 errors: 0, failures: 1, ns: 1, vars: 1
+clj꞉day1.core꞉> 
+; Evaluating file: core.clj
+#'day1.core/parse-input
+; Running tests for day1.core...
+; FAIL in day1.core-test/a-test (core_test.clj:18):
+; FIXME, I fail.
+; expected:
+[199 200 208 210 200 207 240 269 260 263]
+; actual:
+([[199 200 208 210 200 207 240 269 260 263]])
+; 1 tests finished, problems found. 😭 errors: 0, failures: 1, ns: 1, vars: 1
+clj꞉day1.core꞉> 
+; Evaluating file: core.clj
+#'day1.core/parse-input
+; Running tests for day1.core...
+; FAIL in day1.core-test/a-test (core_test.clj:18):
+; FIXME, I fail.
+; expected:
+[199 200 208 210 200 207 240 269 260 263]
+; actual:
+(nil)
+; 1 tests finished, problems found. 😭 errors: 0, failures: 1, ns: 1, vars: 1
+clj꞉day1.core꞉> 
+; Evaluating file: core.clj
+#'day1.core/parse-input
+; Running tests for day1.core...
+; FAIL in day1.core-test/a-test (core_test.clj:18):
+; FIXME, I fail.
+; expected:
+[199 200 208 210 200 207 240 269 260 263]
+; actual:
+((199 200 208 210 200 207 240 269 260 263))
+; 1 tests finished, problems found. 😭 errors: 0, failures: 1, ns: 1, vars: 1
+clj꞉day1.core꞉> 
+; Evaluating file: core.clj
+#'day1.core/parse-input
+; Running tests for day1.core...
+; FAIL in day1.core-test/a-test (core_test.clj:18):
+; FIXME, I fail.
+; expected:
+[199 200 208 210 200 207 240 269 260 263]
+; actual:
+([(199 200 208 210 200 207 240 269 260 263)])
+; 1 tests finished, problems found. 😭 errors: 0, failures: 1, ns: 1, vars: 1
+clj꞉day1.core꞉> 
+; Evaluating file: core_test.clj
+#'day1.core-test/a-test
+; Running tests for day1.core-test...
+; ERROR in day1.core-test/a-test (line 18):
+; FIXME, I fail.
+; error: java.lang.ClassCastException: class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app') (core_test.clj)
+; expected:
+(= (199 200 208 210 200 207 240 269 260 263) (parse-input example))
+; 1 tests finished, problems found. 😭 errors: 1, failures: 0, ns: 1, vars: 1
+clj꞉day1.core-test꞉> 
+; Evaluating file: core.clj
+#'day1.core/parse-input
+; Running tests for day1.core...
+; ERROR in day1.core-test/a-test (line 18):
+; FIXME, I fail.
+; error: java.lang.ClassCastException: class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app') (core_test.clj)
+; expected:
+(= (199 200 208 210 200 207 240 269 260 263) (parse-input example))
+; 1 tests finished, problems found. 😭 errors: 1, failures: 0, ns: 1, vars: 1
+clj꞉day1.core꞉> 
+; Evaluating file: core.clj
+#'day1.core/parse-input
+; Running tests for day1.core...
+; ERROR in day1.core-test/a-test (line 18):
+; FIXME, I fail.
+; error: java.lang.ClassCastException: class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app') (core_test.clj)
+; expected:
+(= (199 200 208 210 200 207 240 269 260 263) (parse-input example))
+; 1 tests finished, problems found. 😭 errors: 1, failures: 0, ns: 1, vars: 1
+clj꞉day1.core꞉> 
+; Evaluating file: core_test.clj
+#'day1.core-test/a-test
+; Running tests for day1.core-test...
+; FAIL in day1.core-test/a-test (core_test.clj:18):
+; FIXME, I fail.
+; expected:
+[199 200 208 210 200 207 240 269 260 263]
+; actual:
+([199 200 208 210 200 207 240 269 260 263])
+; 1 tests finished, problems found. 😭 errors: 0, failures: 1, ns: 1, vars: 1
+clj꞉day1.core-test꞉> 
+; Evaluating file: core_test.clj
+#'day1.core-test/a-test
+; Running tests for day1.core-test...
+; ERROR in day1.core-test/a-test (line 18):
+; FIXME, I fail.
+; error: clojure.lang.ArityException: Wrong number of args (0) passed to: clojure.lang.PersistentVector (AFn.java)
+; expected:
+(= ([199 200 208 210 200 207 240 269 260 263]) (parse-input example))
+; 1 tests finished, problems found. 😭 errors: 1, failures: 0, ns: 1, vars: 1
+clj꞉day1.core-test꞉> 
+; Evaluating file: core.clj
+#'day1.core/parse-input
+; Running tests for day1.core...
+; ERROR in day1.core-test/a-test (line 18):
+; FIXME, I fail.
+; error: clojure.lang.ArityException: Wrong number of args (0) passed to: clojure.lang.PersistentVector (AFn.java)
+; expected:
+(= ([199 200 208 210 200 207 240 269 260 263]) (parse-input example))
+; 1 tests finished, problems found. 😭 errors: 1, failures: 0, ns: 1, vars: 1
+clj꞉day1.core꞉> 
+; Evaluating file: core_test.clj
+#'day1.core-test/a-test
+; Running tests for day1.core-test...
+; ERROR in day1.core-test/a-test (line 16):
+; FIXME, I fail.
+; error: clojure.lang.ArityException: Wrong number of args (0) passed to: clojure.lang.PersistentVector (AFn.java)
+; expected:
+(= [199 200 208 210 200 207 240 269 260 263] (parse-input example))
+; 1 tests finished, problems found. 😭 errors: 1, failures: 0, ns: 1, vars: 1
+clj꞉day1.core-test꞉> 
+; Evaluating file: core.clj
+#'day1.core/parse-input
+; Running tests for day1.core...
+; ERROR in day1.core-test/a-test (line 16):
+; FIXME, I fail.
+; error: clojure.lang.ArityException: Wrong number of args (0) passed to: clojure.lang.PersistentVector (AFn.java)
+; expected:
+(= [199 200 208 210 200 207 240 269 260 263] (parse-input example))
+; 1 tests finished, problems found. 😭 errors: 1, failures: 0, ns: 1, vars: 1
+clj꞉day1.core꞉> 
+; Evaluating file: core.clj
+#'day1.core/parse-input
+; Running tests for day1.core...
+; FAIL in day1.core-test/a-test (core_test.clj:18):
+; FIXME, I fail.
+; expected:
+[199 200 208 210 200 207 240 269 260 263]
+; actual:
+([199 200 208 210 200 207 240 269 260 263])
+; 1 tests finished, problems found. 😭 errors: 0, failures: 1, ns: 1, vars: 1
+clj꞉day1.core꞉> 
+; Evaluating file: core.clj
+#'day1.core/parse-input
+; Running tests for day1.core...
+; ERROR in day1.core-test/a-test (line 16):
+; FIXME, I fail.
+; error: clojure.lang.ArityException: Wrong number of args (0) passed to: clojure.lang.PersistentVector (AFn.java)
+; expected:
+(= [199 200 208 210 200 207 240 269 260 263] (parse-input example))
+; 1 tests finished, problems found. 😭 errors: 1, failures: 0, ns: 1, vars: 1
+clj꞉day1.core꞉> 
+; Evaluating file: core.clj
+#'day1.core/parse-input
+; Running tests for day1.core...
+[199 200 208 210 200 207 240 269 260 263]
+; FAIL in day1.core-test/a-test (core_test.clj:18):
+; FIXME, I fail.
+; expected:
+[199 200 208 210 200 207 240 269 260 263]
+; actual:
+([199 200 208 210 200 207 240 269 260 263])
+; 1 tests finished, problems found. 😭 errors: 0, failures: 1, ns: 1, vars: 1
+clj꞉day1.core꞉> 
+; Evaluating file: core_test.clj
+#'day1.core-test/a-test
+; Running tests for day1.core-test...
+[199 200 208 210 200 207 240 269 260 263]
+; FAIL in day1.core-test/a-test (core_test.clj:18):
+; FIXME, I fail.
+; expected:
+[199 200 208 210 200 207 240 269 260 263]
+; actual:
+([199 200 208 210 200 207 240 269 260 263])
+; 1 tests finished, problems found. 😭 errors: 0, failures: 1, ns: 1, vars: 1
+clj꞉day1.core-test꞉> 
+; Evaluating file: core.clj
+#'day1.core/part1
+; Running tests for day1.core...
+[199 200 208 210 200 207 240 269 260 263]
+; FAIL in day1.core-test/a-test (core_test.clj:18):
+; FIXME, I fail.
+; expected:
+[199 200 208 210 200 207 240 269 260 263]
+; actual:
+([199 200 208 210 200 207 240 269 260 263])
+; 1 tests finished, problems found. 😭 errors: 0, failures: 1, ns: 1, vars: 1
+clj꞉day1.core꞉> 
+; Evaluating file: core_test.clj
+#'day1.core-test/part-1-example
+; Running tests for day1.core-test...
+[199 200 208 210 200 207 240 269 260 263]
+; FAIL in day1.core-test/a-test (core_test.clj:18):
+; FIXME, I fail.
+; expected:
+[199 200 208 210 200 207 240 269 260 263]
+; actual:
+([199 200 208 210 200 207 240 269 260 263])
+; FAIL in day1.core-test/part-1-example (core_test.clj:22):
+; Part 1 - Example
+; expected:
+199
+200
+208
+210
+200
+207
+240
+269
+260
+263
+; actual:
+(7)
+; 2 tests finished, problems found. 😭 errors: 0, failures: 2, ns: 1, vars: 2
+clj꞉day1.core-test꞉> 
+; Evaluating file: core_test.clj
+#'day1.core-test/part-1-example
+; Running tests for day1.core-test...
+[199 200 208 210 200 207 240 269 260 263]
+; FAIL in day1.core-test/a-test (core_test.clj:18):
+; FIXME, I fail.
+; expected:
+[199 200 208 210 200 207 240 269 260 263]
+; actual:
+([199 200 208 210 200 207 240 269 260 263])
+; FAIL in day1.core-test/part-1-example (core_test.clj:22):
+; Part 1 - Example
+; expected:
+7
+; actual:
+(199
+ 200
+ 208
+ 210
+ 200
+ 207
+ 240
+ 269
+ 260
+ 263)
+; 2 tests finished, problems found. 😭 errors: 0, failures: 2, ns: 1, vars: 2
+clj꞉day1.core-test꞉> 
+; Evaluating file: core_test.clj
+#'day1.core-test/part-1-example
+; Running tests for day1.core-test...
+[199 200 208 210 200 207 240 269 260 263]
+; FAIL in day1.core-test/a-test (core_test.clj:18):
+; FIXME, I fail.
+; expected:
+[199 200 208 210 200 207 240 269 260 263]
+; actual:
+([199 200 208 210 200 207 240 269 260 263])
+; FAIL in day1.core-test/part-1-example (core_test.clj:22):
+; Part 1 - Example
+; expected:
+7
+; actual:
+(199
+ 200
+ 208
+ 210
+ 200
+ 207
+ 240
+ 269
+ 260
+ 263)
+; 2 tests finished, problems found. 😭 errors: 0, failures: 2, ns: 1, vars: 2
+clj꞉day1.core-test꞉> 
+; Evaluating file: core.clj
+#'day1.core/part1
+; Running tests for day1.core...
+[199 200 208 210 200 207 240 269 260 263]
+[199 200 208 210 200 207 240 269 260 263]
+; FAIL in day1.core-test/a-test (core_test.clj:18):
+; FIXME, I fail.
+; expected:
+[199 200 208 210 200 207 240 269 260 263]
+; actual:
+([199 200 208 210 200 207 240 269 260 263])
+; FAIL in day1.core-test/part-1-example (core_test.clj:22):
+; Part 1 - Example
+; expected:
+7
+; actual:
+(0)
+; 2 tests finished, problems found. 😭 errors: 0, failures: 2, ns: 1, vars: 2
+clj꞉day1.core꞉> 
+; Evaluating file: core.clj
+#'day1.core/part1
+; Running tests for day1.core...
+[199 200 208 210 200 207 240 269 260 263]
+[199 200 208 210 200 207 240 269 260 263]
+; FAIL in day1.core-test/a-test (core_test.clj:18):
+; FIXME, I fail.
+; expected:
+[199 200 208 210 200 207 240 269 260 263]
+; actual:
+([199 200 208 210 200 207 240 269 260 263])
+; FAIL in day1.core-test/part-1-example (core_test.clj:22):
+; Part 1 - Example
+; expected:
+7
+; actual:
+(0)
+; 2 tests finished, problems found. 😭 errors: 0, failures: 2, ns: 1, vars: 2
+clj꞉day1.core꞉> 
+; Evaluating file: core.clj
+#'day1.core/part1
+; Running tests for day1.core...
+[199 200 208 210 200 207 240 269 260 263]
+[199 200 208 210 200 207 240 269 260 263]
+; FAIL in day1.core-test/a-test (core_test.clj:18):
+; FIXME, I fail.
+; expected:
+[199 200 208 210 200 207 240 269 260 263]
+; actual:
+([199 200 208 210 200 207 240 269 260 263])
+; FAIL in day1.core-test/part-1-example (core_test.clj:22):
+; Part 1 - Example
+; expected:
+7
+; actual:
+(0)
+; 2 tests finished, problems found. 😭 errors: 0, failures: 2, ns: 1, vars: 2
+clj꞉day1.core꞉> 
+; Evaluating file: core.clj
+; Syntax error reading source at (src/day1/core.clj:12:64).
+; Invalid token: :
+; Evaluation of file core.clj failed: class clojure.lang.Compiler$CompilerException
+
+clj꞉day1.core꞉> 
+; Running tests for day1.core...
+[199 200 208 210 200 207 240 269 260 263]
+[199 200 208 210 200 207 240 269 260 263]
+; FAIL in day1.core-test/a-test (core_test.clj:18):
+; FIXME, I fail.
+; expected:
+[199 200 208 210 200 207 240 269 260 263]
+; actual:
+([199 200 208 210 200 207 240 269 260 263])
+; FAIL in day1.core-test/part-1-example (core_test.clj:22):
+; Part 1 - Example
+; expected:
+7
+; actual:
+(0)
+; 2 tests finished, problems found. 😭 errors: 0, failures: 2, ns: 1, vars: 2
+clj꞉day1.core꞉> 
+; Evaluating file: core.clj
+#'day1.core/part1
+; Running tests for day1.core...
+[199 200 208 210 200 207 240 269 260 263]
+[199 200 208 210 200 207 240 269 260 263]
+; FAIL in day1.core-test/a-test (core_test.clj:18):
+; FIXME, I fail.
+; expected:
+[199 200 208 210 200 207 240 269 260 263]
+; actual:
+([199 200 208 210 200 207 240 269 260 263])
+; FAIL in day1.core-test/part-1-example (core_test.clj:22):
+; Part 1 - Example
+; expected:
+7
+; actual:
+(0)
+; 2 tests finished, problems found. 😭 errors: 0, failures: 2, ns: 1, vars: 2
+clj꞉day1.core꞉> 
+; nREPL Connection was closed
